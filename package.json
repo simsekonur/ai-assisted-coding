@@ -1,0 +1,14 @@
+{
+  "name": "ai-assisted-coding",
+  "version": "1.0.0",
+  "description": "Ad classifier service using Google Gemini API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
